@@ -1,0 +1,24 @@
+# Environments
+.env
+.venv
+venv/
+env/
+__pycache__/
+*.pyc
+*.pyo
+
+# Local Databases (Too large for GitHub)
+indexing/qdrant_db/
+
+# Streamlit Cache
+.streamlit/
+
+# OS Generated Files
+.DS_Store
+Thumbs.db
+
+.env
+__pycache__/
+indexing/qdrant_db/
+venv/
+.DS_Store

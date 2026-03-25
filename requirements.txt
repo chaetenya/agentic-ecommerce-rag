@@ -1,0 +1,19 @@
+# Core ML & Orchestration
+torch
+langchain
+langgraph
+llama-index
+
+# Storage & Retrieval
+neo4j
+qdrant-client
+sentence-transformers
+
+# Evaluation
+ragas
+trulens_eval
+
+# App & API
+streamlit
+fastapi
+uvicorn

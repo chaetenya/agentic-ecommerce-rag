@@ -1,0 +1,7 @@
+# Wait 60 seconds before connecting using these details, or login to https://console.neo4j.io to validate the Aura Instance is available
+NEO4J_URI=neo4j+s://1d9ebf11.databases.neo4j.io
+NEO4J_USERNAME=1d9ebf11
+NEO4J_PASSWORD=DLuPUlTuR1wsjj1uD8lrhUmju0ZtMAxceTJ1XiEhf_k
+NEO4J_DATABASE=1d9ebf11
+AURA_INSTANCEID=1d9ebf11
+AURA_INSTANCENAME=Free instance
