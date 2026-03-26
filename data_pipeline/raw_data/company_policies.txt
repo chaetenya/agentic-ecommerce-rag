@@ -1,0 +1,14 @@
+
+# QuickCart E-Commerce Policies
+
+## 1. Return & Refund Policy
+- **Electronics & Peripherals:** Items can be returned within 14 days of delivery. If the original packaging is opened, a 15% restocking fee applies. Defective items are exempt from the restocking fee and can be returned within 30 days.
+- **Groceries & Perishables:** No returns are accepted for food items. If an item arrives spoiled or damaged, a full refund will be issued if reported within 24 hours of delivery.
+
+## 2. Shipping & Delivery SLAs
+- **Standard Shipping:** 3-5 business days. Free for orders over $50.
+- **Quick-Commerce Express:** Delivery within 2 hours for eligible local grocery items. Costs a flat $4.99 fee.
+
+## 3. Warranty Information
+- All Apple products are covered by a 1-year limited manufacturer warranty.
+- Sony and Bose headphones include a 1-year warranty covering internal hardware defects. Accidental water damage is not covered.

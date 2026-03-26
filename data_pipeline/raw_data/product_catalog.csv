@@ -1,0 +1,7 @@
+product_id,name,category,brand,price,specs,avg_rating
+P001,Sony WH-1000XM4,Electronics,Sony,298.0,"Noise cancelling, 30hr battery, over-ear",4.8
+P002,Bose QuietComfort 45,Electronics,Bose,329.0,"Noise cancelling, 24hr battery, over-ear",4.7
+P003,Apple AirPods Pro 2,Electronics,Apple,249.0,"Active noise cancellation, spatial audio, in-ear",4.9
+P004,Logitech MX Master 3S,Peripherals,Logitech,99.99,"Ergonomic, 8000 DPI, multi-device",4.8
+P005,Razer DeathAdder V3,Peripherals,Razer,69.99,"Wired, 30K DPI, lightweight gaming",4.6
+G001,Organic Avocados (Pack of 4),Groceries,FreshFarms,5.99,"Fresh, locally sourced, organic",4.2
