@@ -9,7 +9,6 @@ from dotenv import load_dotenv
 load_dotenv()
 
 
-print("Loading Embedding Models into memory...")
 
 bi_encoder = SentenceTransformer('all-MiniLM-L6-v2', device='cuda')
 
