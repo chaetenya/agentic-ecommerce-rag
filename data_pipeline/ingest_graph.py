@@ -3,7 +3,6 @@ import pandas as pd
 from neo4j import GraphDatabase
 from dotenv import load_dotenv
 
-# 1. Load Secure Environment Variables
 load_dotenv()
 URI = os.getenv("NEO4J_URI")
 USER = os.getenv("NEO4J_USERNAME")
@@ -13,13 +12,12 @@ def build_knowledge_graph():
     print("Connecting to Neo4j AuraDB")
     driver = GraphDatabase.driver(URI, auth=(USER, PASSWORD))
     
-    # 2. Read the structured CSV data we generated earlier
+    # Read the structured CSV data we generated earlier
     base_dir = os.path.dirname(__file__)
     csv_path = os.path.join(base_dir, "raw_data", "product_catalog.csv")
     df = pd.read_csv(csv_path)
     
-    # 3. The Cypher Query
-    # MERGE ensures we don't create duplicate nodes if we run this twice
+    # The Cypher Query
     cypher_query = """
     UNWIND $rows AS row
     
@@ -39,12 +37,12 @@ def build_knowledge_graph():
     MERGE (p)-[:PRODUCED_BY]->(b)
     """
     
-    # 4. Execute the pipeline
+    # Execute the pipeline
     print("Building Graph Nodes and Relationships")
     with driver.session() as session:
         session.run(cypher_query, rows=df.to_dict('records'))
     
-    print("Knowledge Graph successfully populated in the cloud!")
+    print("Knowledge Graph successfully populated")
     driver.close()
 
 if __name__ == "__main__":
